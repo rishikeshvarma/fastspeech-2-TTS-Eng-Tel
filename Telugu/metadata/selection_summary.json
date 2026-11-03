@@ -1,0 +1,28 @@
+{
+  "corpus_utterances": 8576,
+  "corpus_hours": 36.712271359953824,
+  "usable_utterances": 5496,
+  "usable_speech_hours": 11.099625532407442,
+  "selected": {
+    "train": {
+      "utterances": 2418,
+      "speech_hours": 5.1019899768518515,
+      "recording_hours": 5.871723258101853,
+      "speech_hours_per_speaker": {
+        "te_female": 2.5516590104166705,
+        "te_male": 2.5503309664351814
+      }
+    },
+    "val": {
+      "utterances": 488,
+      "speech_hours": 1.0224325925925926,
+      "recording_hours": 1.1781194444444454,
+      "speech_hours_per_speaker": {
+        "te_female": 0.5112444444444444,
+        "te_male": 0.5111881481481481
+      }
+    }
+  },
+  "lexicon_words": 13629,
+  "text_overlap_between_train_and_val": 0
+}

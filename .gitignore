@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# environments, editors, OS files
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# TensorBoard event files (10-40 MB each); the CSV loss logs and log.txt next to them are kept
+*/logs/train/events.*
+*/logs/val/events.*
+
+# training checkpoints with optimiser state (418 MB each); only the weights-only
+# float16 final.pth.tar (~72 MB) is published, see README "Checkpoints"
+*/checkpoints/*.pth.tar
+!*/checkpoints/final.pth.tar
+
+# corpora and intermediate files belong outside the repository (../data, ../work);
+# these patterns only guard against copies made inside it
+data/
+work/
+raw_data/
+preprocessed/
+*.parquet
+mfa_tmp/

@@ -1,0 +1,90 @@
+{
+ "asr_model": "openai/whisper-large-v3-turbo",
+ "checkpoint": "final",
+ "test_sentences": {
+  "E1": {
+   "text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+   "asr": "The anti-establishmentarianism movement gained considerable momentum during the parliamentary proceedings."
+  },
+  "E2a": {
+   "text": "The orchestra's conduct during the ceremony was praised by the audience.",
+   "asr": "The orchestra's conduct during the ceremony was praised by the audience."
+  },
+  "E2b": {
+   "text": "The researchers will conduct an experiment to evaluate the proposed method.",
+   "asr": "The researchers will conduct an experiment to evaluate the proposed method"
+  },
+  "E3": {
+   "text": "The rhyth m of the orchestra changed unexpectedly.",
+   "asr": "The writing of the orchestra changed unexpectedly."
+  },
+  "E4": {
+   "text": "The meeting will start at 10:45 AM on 12 November 2026, so andaroo should arrive on time.",
+   "asr": "The meeting will start at 10.45 am on 12th November 2026. So and I should arrive on time."
+  }
+ },
+ "validation": {
+  "utterances": 100,
+  "seed": 0,
+  "synthesised": {
+   "wer": 0.18173345759552656,
+   "cer": 0.09763017356475301
+  },
+  "real_recordings": {
+   "wer": 0.05684995340167754,
+   "cer": 0.028037383177570093
+  }
+ },
+ "validation_examples": [
+  {
+   "id": "f_5e0ae12b_val_0323",
+   "reference": "back stage cross stage and all that",
+   "synthesised": "backstage cross stage and all that"
+  },
+  {
+   "id": "m_28885c30_val_0199",
+   "reference": "english is widely understood by people of india",
+   "synthesised": "english is widely understood by people of india"
+  },
+  {
+   "id": "f_40215e6b_val_0034",
+   "reference": "long drives are his 1st love and i would say i am a professional passenger",
+   "synthesised": "long drives are his 1st love and i would say i am a professional passenger"
+  },
+  {
+   "id": "m_38de48e0_val_0307",
+   "reference": "compare to other languages english has wider audience",
+   "synthesised": "compared to other languages english as by dardines"
+  },
+  {
+   "id": "m_3834f1c1_val_0091",
+   "reference": "the brahmaputra river is just by the capital city guwahati",
+   "synthesised": "the brahmaputra river is just by the capital city goanbe"
+  },
+  {
+   "id": "f_93f2bf55_val_0688",
+   "reference": "a group of people private institutions are the ones which have the maximum number of students and",
+   "synthesised": "a group of people private institutions are the ones which have maximum number of students"
+  },
+  {
+   "id": "f_3210024f_val_0036",
+   "reference": "in arms and the man shaw is seen criticizing war and nobody else can do it the way he does it through comedy",
+   "synthesised": "in arms and romance show is seen criticizing war and nobody else can do it the way he does it through comedy"
+  },
+  {
+   "id": "f_e81f2197_val_0738",
+   "reference": "can you send money to unsaved mobile numbers in paypal",
+   "synthesised": "can you send manhattan is saved mobile numbers in paypal"
+  },
+  {
+   "id": "m_7b8a2450_val_0219",
+   "reference": "so the other thing that makes english grammar unique is that most of the rules are very well structured",
+   "synthesised": "so the other thing that makes english grammar unique is that most of us use a railway structure"
+  },
+  {
+   "id": "f_c0a0a90b_val_0460",
+   "reference": "they are optimistic they have so many things within them that they want to be fulfilled and that is how i love life to be",
+   "synthesised": "they are optimistic they have so many things within them that they want to be fulfilled and that is how i love life to be"
+  }
+ ]
+}
